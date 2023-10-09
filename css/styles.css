@@ -1,0 +1,208 @@
+.main-nav-menu {
+    background-color: #353A40;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 75px;
+}
+
+.h-nav {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+ul.main-nav {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+.nav-menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu-item {
+    color: #9DA399;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+.feat-nav {
+    color: #2BA645;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.menu-item:active {
+    color: #fff;
+}
+
+a:hover{
+    color: #fff; 
+    transition-duration: .3s;
+}
+
+#conferencia {
+    height: 65vh;
+    background: linear-gradient(to right , #00000093 , #00000093), url(../assets/img/ba1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+    color: white;
+    font-size: 1.2em;
+    background-blend-mode: darken;
+}
+
+.header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;   
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 2px 2px 15px #000;
+    text-align: right;
+}
+
+.header-p {
+    color: #fff;
+    text-shadow: 2px 2px 15px #000; 
+    width: 50%;
+}
+
+.header-cta {
+    display: flex;
+}
+
+.sec-btn {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 15px #000;
+    margin: 3px;
+}
+
+.sec-btn:hover {
+    background-color: #fff;
+    color: #333;    
+    transition-duration: .3s;
+}
+
+.main-btn {
+    background-color: #28A844;
+    border: 1px solid #28A844;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 15px #000;
+    margin: 3px;
+}
+
+.main-btn:hover {
+    background-color: #207e34;
+    color: #fff;    
+    transition-duration: .3s;
+}
+
+#oradores {
+    padding: 20px 0;
+}
+
+.h-oradores {
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feat-h-oradores {
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards {
+   
+}
+
+.card-content {
+    border: 1px solid #dbdbdb;
+    border-radius: 0 0 3px 3px;
+    padding: 15px;
+}
+
+
+.cards img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px 3px 0 0;
+}
+
+.card-tag {
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 0 3px 0 0;
+}
+
+.js-tag {
+    background-color: #FEC106;
+    color: #333;
+}
+
+.react-tag {
+    background-color: #17A2B7;
+}
+
+.negocios-tag {
+    background-color: #6C757C;
+}
+
+.startup-tag {
+    background-color: #DB3645;
+}
+
+
+
+
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #1C3643, #1E5472);
+    height: 10vh;
+}
+
+.link-footer {
+    color: #fff;
+    text-decoration: none;
+}
